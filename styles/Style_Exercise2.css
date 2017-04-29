@@ -1,0 +1,93 @@
+body{
+	background-color: rgb(238,238,238);
+	/*adding background-color to body*/
+}
+
+header{
+	background-color:rgb(57,163,143) ;
+	position: fixed;
+	width: 100%;
+	font-family: sans-serif;
+	/*fixing the header along with applying background colour, adjusting width and changing font*/
+}
+
+nav li{
+	display: inline;
+	padding-right: 70px;
+	/*displaying contents of list in one line to make a navigation bar and applying padding to contents*/
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	/*removing underline from links and changing colour*/
+}
+
+#logo{
+	width: 0px;
+	height: 0px;
+	/*adjusting height and width of div with id as logo*/
+}
+
+#logo img{
+	width: 100px;
+	height: 50px;
+	/*adjusting dimensions of logo image*/
+}
+
+.right{
+	float: right;
+	/*floating the elements of this class to right*/
+}
+
+.main{
+	background-color: rgb(255,255,255);
+	/*changing background colour for 960 grid section*/
+}
+
+.main section h3{
+	background-color: rgb(57,163,143);
+	color: white;
+	font-family: proxima_nova_rgregular;
+	font-size: 16px;
+	width: 610px; 
+	/*stylising headings in the grid*/
+}
+
+.main section li{
+	color: rgb(57,163,143);
+	font-family: proxima_nova_rgregular;
+	font-size: 16px;
+	/*stylising the unordered list in the grid*/
+}
+
+#foot{
+	background-color: rgb(57,163,143);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	/*stylising the div for footer*/
+}
+
+footer li{
+	display: inline;
+	padding-left: 70px;
+	text-align: right;
+	font-family: sans-serif;
+	/*stylisng the list elements in the footer by making them in one line to create a navigation bar*/
+}
+
+footer span{
+	color: rgb(92,92,92);
+	font-family: proxima_nova_rgregular;
+	font-size: 16px;
+	/*stylising social networking sites links in the footer*/
+}
+
+footer aside{
+	color: rgb(126,170,162);
+	font-family: gotham_mediumregular;
+	font-size: 12px;
+	float: right;
+	/*stylisng the copyright in the footer*/
+}
+
